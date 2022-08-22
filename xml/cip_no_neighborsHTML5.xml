@@ -1,0 +1,88 @@
+
+<xml version="1.0" encoding="UTF-8" standalone="yes">
+<xmlData title="Norway" subtitle="Neighbors">
+    
+	<neighbor>
+	
+    <map>
+    <worldMap src="worldMap_neighbors.png" X="1270" Y="180" worldMapWidth="2889" worldMapHeight="1564"/>
+    <targetMap map="targetBGMap.png" mapFlag="targetBGMapWithFlag.png" flagIconSizeRatio="0.7" showLowerInstr="true" hintBoxAlign="topRight"/>
+  </map>
+           
+        <instructions>
+            <image>instructions.gif</image>
+            <text>Drag the button to the country location on the map</text>
+        </instructions>
+
+
+
+  <country>
+    <name>Finland</name>
+    <hint>Hint: This country’s border lies in the northeast.</hint>
+    <map flagSRC="finland.png" flagX="259" flagY="176" dropPointX="276" dropPointY="156" lineDegree="90" lineWidth="0" dropBoxWidth="80" dropBoxHeight="18" conNameWithLine="yes" mapRollOverCollor="#ffe14d"/>
+    <finalMap width="48" height="32" namePosX="260" namePosY="135" finalMapX="200" finalMapY="0" numZoom="1.5" regionNames="" regionNames_X="80" regionNames_Y="90" regionNames_Width="60" regionNames_Degree="0"/>
+	<button width="100" height="15"/>
+   
+    <legend>
+     <icon name="Trade">Trade</icon>
+	 <icon name="Diplomacy">Diplomacy</icon> 
+	 <icon name="OpenBorder">Open Border</icon>
+	  
+       </legend>
+	   
+    <inset>
+       <icon name="Trade" X="228" Y="65">Finland is Norway's 13th largest import and 12th largest export partner.</icon>
+	   <icon name="Diplomacy" X="256" Y="70">Finland and Norway established relations in 1917 and both maintain embassies in their respective capitals.</icon>
+	   <icon name="OpenBorder" X="266" Y="46">The border extends 736 km (457 mi) and is open as part of the Schengen Area travel agreement.</icon>
+      </inset>
+  </country>
+  
+  
+  <country>
+    <name>Sweden</name>
+    <hint>Hint: This country shares the longest border with Norway.</hint>
+    <map flagSRC="sweden.png" flagX="156" flagY="205" dropPointX="173" dropPointY="186"  lineDegree="90" lineWidth="0" dropBoxWidth="80" dropBoxHeight="18" conNameWithLine="yes" mapRollOverCollor="#a56daa"/>
+    <finalMap width="48" height="32" namePosX="164" namePosY="190" finalMapX="100" finalMapY="90" numZoom="1.4" regionNames="" regionNames_X="195"  regionNames_Y="200" regionNames_Width="240" regionNames_Degree="0"/>
+    <button width="100" height="15"/>
+    
+	 <legend>
+    <icon name="Trade">Trade</icon>
+	 <icon name="Diplomacy">Diplomacy</icon> 
+	 <icon name="humanTrafficking">Human Trafficking</icon> 
+	  
+       </legend>
+	   
+    <inset>
+       <icon name="Trade" X="154" Y="152">Sweden is Norway’s top import and fourth-largest export partner.</icon>
+	   <icon name="Diplomacy" X="139" Y="180">Sweden and Norway have long diplomatic relations, tracing back to the late 14th century.</icon>
+	   <icon name="humanTrafficking" X="132" Y="210">Sweden pioneered the controversial Nordic Model of combating human trafficking, which Norway adopted in 2009.</icon>
+      </inset>
+  </country>
+  
+  
+ <country>
+    <name>Russia</name>
+    <hint>Hint: This country shares the shortest border with Norway.</hint>
+    <map flagSRC="russia.png" flagX="347" flagY="235" dropPointX="363" dropPointY="216"  lineDegree="90" lineWidth="0" dropBoxWidth="80" dropBoxHeight="18" conNameWithLine="yes" mapRollOverCollor="#5ecc8e"/>
+    <finalMap width="48" height="32" namePosX="320" namePosY="90" finalMapX="235" finalMapY="-10" numZoom="1.5" regionNames="" regionNames_X="170"  regionNames_Y="230" regionNames_Width="60" regionNames_Degree="0"/>
+    <button width="100" height="15"/>
+	 
+	 <legend>
+		  
+	 <icon name="Trade">Trade</icon>
+	 <icon name="Diplomacy">Diplomacy</icon> 
+	 <icon name="Conflict">Conflict</icon> 
+    </legend>
+	
+    <inset>
+     <icon name="Trade" X="284" Y="60">Russia and Norway share deep economic ties and consistently seek opportunities for partnerships.</icon>
+		<icon name="diplomacy" X="298" Y="43" >Russia and Norway are cautious allies with a long history. Tensions have risen in recent years.</icon>
+	   <icon name="Conflict" X="311" Y="25">Russia conducted mock airstrikes in response to Norway’s installation of a radar system in Vardø.</icon>
+    </inset>
+  </country> 
+   
+  
+ 
+</neighbor>
+</xmlData>
+</xml>
